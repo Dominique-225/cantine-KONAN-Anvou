@@ -1,0 +1,55 @@
+TEST 1: MONNAIE A RENDRE
+
+Données utilisées : 
+Code du plat : 1
+quantité : 3
+Montant versé : 5000 FCFA
+
+Commande exécutée :
+node .\cantine.js
+
+Sortie obtenue : 
+CAISSE DE LA CANTINE
+Client : Awa
+Plat : Attiéké-poisson
+Prix unitaire : 1500 FCFA
+Quantité : 3
+Achat numéro 1
+Achat numéro 2
+Achat numéro 3
+Total à payer : 4500 FCFA
+Montant versé : 5000 FCFA
+Monnaie à rendre : 500 FCFA
+
+TEST 2: PAIEMENT INSUFFISANT
+
+Données utilidées :
+Code du plat : 2
+quantité : 2
+Montant versé : 3000 FCFA
+
+Commande exécutée :
+node .\cantine.js
+
+Sortie obtenue:
+CAISSE DE LA CANTINE
+Client : Awa
+Plat : Riz-poulet
+Prix unitaire : 2000 FCFA
+Quantité : 2
+Achat numéro 1
+Achat numéro 2
+Total à payer : 4000 FCFA
+Montant versé : 3000 FCFA
+Montant manquant : 1000 FCFA
+
+README.txt
+
+KONAN ANVOU
+
+Présentation du projet : La caisse de la cantine
+Ce projet consiste à créer un programme en JavaScript permettant de gérer les achats d'un client à la cantine. Il permet de choisir un plat, de calculer le montant total selon la quantité commandée, puis de vérifier le montant versé afin d'afficher la monnaie à rendre ou le montant restant à payer.
+
+Commande d'exécution
+_ if, else if, elese
+_ for
